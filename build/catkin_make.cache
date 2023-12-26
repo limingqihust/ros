@@ -1,0 +1,2 @@
+smartcar_description
+-DCATKIN_DEVEL_PREFIX=/home/lmq/smartcar_description/devel -DCMAKE_INSTALL_PREFIX=/home/lmq/smartcar_description/install -G Unix Makefiles
