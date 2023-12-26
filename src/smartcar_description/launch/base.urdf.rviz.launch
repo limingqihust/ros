@@ -5,8 +5,4 @@
     <param name="use_gui" value="$(arg gui)"/>
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-    <node pkg="arbotix_python" type="arbotix_driver" name="driver" output="screen">
-        <rosparam file="$(find smartcar_description)/config/control.yaml" command="load"/>
-        <param name="sim" value="true" />
-    </node>
 </launch>
