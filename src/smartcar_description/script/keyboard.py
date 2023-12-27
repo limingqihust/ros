@@ -11,7 +11,7 @@ from std_msgs.msg import String
  
 # 全局变量
 cmd = Twist()
-pub = rospy.Publisher('cmd_vel', Twist)
+pub = rospy.Publisher('cmd_vel', Twist, queue_size = 10)
  
 def keyboardLoop():
     #初始化
